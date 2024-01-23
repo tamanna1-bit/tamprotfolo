@@ -1,86 +1,49 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Tamanna Sangroula's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Tamanna Sangroula
+Undergraduate Student at BYU-Idaho, Accounting major, Data Science Minor.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+ <a href="www.linkedin.com/in/tamanna-sangroula-aa8977293">My LinkedIn</a>
 </div>
 
 
-## Currently
+## Summary
 
-Standing on the shoulders of giants
+Detail-oriented Accounting Major with a Data Science minor having a strong academic foundation and a passion for financial analysis and reporting.
+Proficient in manual accounting processes and committed to upholding the highest standards of accuracy and ethics. Skilled in reconciling complex accounts and identifying discrepancies. Adept at collaborating with cross-functional teams to streamline processes and improve financial performance. Seeking opportunities to leverage academic knowledge in a professional accounting role.
 
-### Specialized in
+## Skills
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+• Programming Skills: Python, SQL.<br>
+• Accounting Skills: Financial Reporting, Book Keeping, Financial Analysis.<br>
+• Computer Skills: MS. Excel, MS. Powerpoint, MS. Word.<br>
+• Soft Skills: Problem Solving, Teamwork, Ethical Conduct, Leadership, Communication, Adaptability.
 
+## Experience
 
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
+`University Of Louisian at Monroe - Student worker; Monroe, LA` | `January 2023 - May 2023`<br>
+• Facilitated technology use for over 200 library visitors monthly, resolving 95% of equipment issues, and providing guidance for
+accessing digital resources and databases, enhancing patron's overall library experience.<br>
+• Took active roles in 20+ annual library programs, contributed to 15+ promotional materials and displays, and participated in 10+
+training and professional development sessions.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`January 2022 - May 2023`
+__University of Louisian at Monroe.__
 
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+`September 2023 - now`
+__Bragham Young University, Idaho__
 
 
 
 ## Awards
 
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+`2022`
+ULM Emerging Scholar, University of Louisiana at Monroe.
 
 
 
