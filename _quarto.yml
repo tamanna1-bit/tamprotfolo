@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Tamanna Sangroula Data Science Portfolio"
+  title: "Your_Name Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
   repo-url: https://github.com/your_url
@@ -10,10 +10,10 @@ website:
 
   page-footer: 
     border: true
-    left: "Tamanna Sangroula 2023©"
+    left: "Your_Name 2023©"
     right: 
       - icon: linkedin
-        href: www.linkedin.com/in/tamanna-sangroula-aa8977293
+        href: Your_LinkedIn_URL
 
   navbar:
     background: primary

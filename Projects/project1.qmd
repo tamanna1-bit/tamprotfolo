@@ -1,0 +1,161 @@
+---
+title: "Project 1 - Trends with the Name."
+subtitle: "Course DS 250"
+author: "Tamanna Sangroula"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+import plotly.express as px
+#import altair as alt 
+```
+
+
+## Elevator pitch
+
+_From this project, I have visualized and analyzed the uses of names in diffrent year. I have compared the use of diffrent names with the year and tried to see how the trends are with the name. I have used plotly express to plot charts and used different tools with in plotly express such as shape, annotations._
+
+```{python}
+#| label: project data
+#| code-summary: Read and format project data
+# Include and execute your code here
+df = pd.read_csv("https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv")
+```
+
+__Highlight the Questions and Tasks__
+
+## QUESTION|TASK 1
+
+__How does your name at your birth year compare to its use historically?__
+
+_My name, Tamanna, is not in the data so, I use a name with the same meaning as mine, Desire. As I visualized the data, the name 'Desire' is used quite a good number of times. During my birt year, that name was used for total of 64 times. It dropped from 88 times to 64 times. But historically its use statred to grow form the year 1985 and started to drop from year 2010. _
+
+```{python}
+#| label: Q1
+#| code-summary: Read and format data
+# Include and execute your code here
+# target = 'Tamanna'
+# count = df[df['name']== target].shape[0]
+# print(count)
+my_data = df[df['name']== 'Desire']
+scatterplot = px.scatter(my_data,x='year',y = 'Total', title = "Scatterplot of use of name 'Desire'")
+#scatterplot.show()
+
+my_year = 2003  
+scatterplot.add_shape(
+    dict(
+        type='line',
+        x0=my_year,
+        x1=my_year,
+        y0=0,
+        y1=len(my_data)*3,
+        line=dict(color='green'),
+        name='My Birth Year'
+    )
+)
+scatterplot.add_annotation(
+    x=my_year,
+    y=len(my_data)*3,
+    text = '2003',
+    showarrow = True
+)
+scatterplot.show()
+```
+
+
+## QUESTION|TASK 2
+
+__If you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?__
+
+_I think Brittany would be in her mid 30s to early 40s. As the name reached the hightest in 1990 with the total use of 32.562k times. There is lesser chance of her being younger than 34 years old as the uses of that name statred to drop.  _
+
+```{python}
+#| label: Q2
+#| code-summary: Read and format data
+# Include and execute your code here
+brittany_data = df[df['name']== 'Brittany']
+boxplot = px.line(brittany_data, x='year', y="Total", title = 'LineGraph for Brittany')
+
+boxplot.show()
+
+```
+
+
+## QUESTION|TASK 3
+
+__Mary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names. What trends do you notice?__
+
+_As we compare the names; Mary, Martha, Peter, and Paul, we can find which was used the most or the least. From year 1920 to year 2000, 'Mary' was used the most where as 'Peter was least used until 1953 after which 'Marth' was least used. The use of all these name dropped after late 1960s. But the most dropped name was 'Mary'. Now, the uses of all these names are in similiar number, being used less than 10k. _
+
+```{python}
+#| label: Q3
+#| code-summary: Read and format data
+# Include and execute your code here
+names = df.query("name in ['Mary', 'Martha', 'Peter', 'Paul'] and year >= 1920 and year <=2000")
+christian_names = px.line(names, x='year', y='Total', color='name', title='Christian Names used (1920 - 2000)')
+christian_names.show()
+
+```
+
+
+
+## QUESTION|TASK 4
+
+__Think of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?__
+
+_I have tried using a bar graph to visualize the use of the name 'Austin'. I took the name from the movie "Austin Powers" which was released in 1997. It was a hughly popular movie. Seing the trend with the name, the use of name 'Asutin' was at its peak. Follwing the year, the name rose a little but then it statred to drop. In my opinion, the movie's popularity did not gave a huge impact to the use of the name. _
+
+```{python}
+#| label: Q4
+#| code-summary: Read and format data
+# Include and execute your code here
+austin_data = df[df['name']== 'Austin']
+austin_chart  = px.bar(austin_data,x='year',y = 'Total', title = "Bar Graph of use of name 'Austin'")
+#scatterplot.show()
+
+austin_year = 1997  
+austin_chart.add_shape(
+    dict(
+        type='line',
+        x0=austin_year,
+        x1=austin_year,
+        y0=0,
+        y1=len(austin_data)*215,
+        line=dict(color='red'),
+        name='Use of Austin name'
+    )
+)
+austin_chart.add_annotation(
+    x=austin_year,
+    y=len(austin_data)*200,
+    text = 'Austin Powers release year 1997',
+    showarrow = True
+)
+austin_chart.show()
+
+```
+
