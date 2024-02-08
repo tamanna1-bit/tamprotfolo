@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "competition.html#title-2-header",
-    "href": "competition.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
     "objectID": "story_telling.html",
     "href": "story_telling.html",
     "title": "about me",
@@ -23,20 +9,6 @@
   {
     "objectID": "story_telling.html#title-2-header",
     "href": "story_telling.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "index.html#title-2-header",
-    "href": "index.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
@@ -56,80 +28,106 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "exploration.html",
-    "href": "exploration.html",
+    "objectID": "Projects/project3.html",
+    "href": "Projects/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project1.html",
+    "href": "Projects/project1.html",
+    "title": "Project 1 - Trends with the Name.",
+    "section": "",
+    "text": "From this project, I have visualized and analyzed the uses of names in diffrent year. I have compared the use of diffrent names with the year and tried to see how the trends are with the name. I have used plotly express to plot charts and used different tools with in plotly express such as shape, annotations.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project1.html#elevator-pitch",
+    "href": "Projects/project1.html#elevator-pitch",
+    "title": "Project 1 - Trends with the Name.",
+    "section": "",
+    "text": "From this project, I have visualized and analyzed the uses of names in diffrent year. I have compared the use of diffrent names with the year and tried to see how the trends are with the name. I have used plotly express to plot charts and used different tools with in plotly express such as shape, annotations.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project1.html#questiontask-1",
+    "href": "Projects/project1.html#questiontask-1",
+    "title": "Project 1 - Trends with the Name.",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nHow does your name at your birth year compare to its use historically?\nMy name, Tamanna, is not in the data so, I use a name with the same meaning as mine, Desire. As I visualized the data, the name ‘Desire’ is used quite a good number of times. During my birt year, that name was used for total of 64 times. It dropped from 88 times to 64 times. But historically its use statred to grow form the year 1985 and started to drop from year 2010. \n\n\nRead and format data\n# Include and execute your code here\n# target = 'Tamanna'\n# count = df[df['name']== target].shape[0]\n# print(count)\nmy_data = df[df['name']== 'Desire']\nscatterplot = px.scatter(my_data,x='year',y = 'Total', title = \"Scatterplot of use of name 'Desire'\")\n#scatterplot.show()\n\nmy_year = 2003  \nscatterplot.add_shape(\n    dict(\n        type='line',\n        x0=my_year,\n        x1=my_year,\n        y0=0,\n        y1=len(my_data)*3,\n        line=dict(color='green'),\n        name='My Birth Year'\n    )\n)\nscatterplot.add_annotation(\n    x=my_year,\n    y=len(my_data)*3,\n    text = '2003',\n    showarrow = True\n)\nscatterplot.show()",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project1.html#questiontask-2",
+    "href": "Projects/project1.html#questiontask-2",
+    "title": "Project 1 - Trends with the Name.",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nIf you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?\nI think Brittany would be in her mid 30s to early 40s. As the name reached the hightest in 1990 with the total use of 32.562k times. There is lesser chance of her being younger than 34 years old as the uses of that name statred to drop. \n\n\nRead and format data\n# Include and execute your code here\nbrittany_data = df[df['name']== 'Brittany']\nboxplot = px.line(brittany_data, x='year', y=\"Total\", title = 'LineGraph for Brittany')\n\nboxplot.show()",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project1.html#questiontask-3",
+    "href": "Projects/project1.html#questiontask-3",
+    "title": "Project 1 - Trends with the Name.",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nMary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names. What trends do you notice?\nAs we compare the names; Mary, Martha, Peter, and Paul, we can find which was used the most or the least. From year 1920 to year 2000, ‘Mary’ was used the most where as ‘Peter was least used until 1953 after which ’Marth’ was least used. The use of all these name dropped after late 1960s. But the most dropped name was ‘Mary’. Now, the uses of all these names are in similiar number, being used less than 10k. \n\n\nRead and format data\n# Include and execute your code here\nnames = df.query(\"name in ['Mary', 'Martha', 'Peter', 'Paul'] and year &gt;= 1920 and year &lt;=2000\")\nchristian_names = px.line(names, x='year', y='Total', color='name', title='Christian Names used (1920 - 2000)')\nchristian_names.show()",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project1.html#questiontask-4",
+    "href": "Projects/project1.html#questiontask-4",
+    "title": "Project 1 - Trends with the Name.",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nThink of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?\nI have tried using a bar graph to visualize the use of the name ‘Austin’. I took the name from the movie “Austin Powers” which was released in 1997. It was a hughly popular movie. Seing the trend with the name, the use of name ‘Asutin’ was at its peak. Follwing the year, the name rose a little but then it statred to drop. In my opinion, the movie’s popularity did not gave a huge impact to the use of the name. \n\n\nRead and format data\n# Include and execute your code here\naustin_data = df[df['name']== 'Austin']\naustin_chart  = px.bar(austin_data,x='year',y = 'Total', title = \"Bar Graph of use of name 'Austin'\")\n#scatterplot.show()\n\naustin_year = 1997  \naustin_chart.add_shape(\n    dict(\n        type='line',\n        x0=austin_year,\n        x1=austin_year,\n        y0=0,\n        y1=len(austin_data)*215,\n        line=dict(color='red'),\n        name='Use of Austin name'\n    )\n)\naustin_chart.add_annotation(\n    x=austin_year,\n    y=len(austin_data)*200,\n    text = 'Austin Powers release year 1997',\n    showarrow = True\n)\naustin_chart.show()",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project4.html",
+    "href": "Projects/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "exploration.html#title-2-header",
-    "href": "exploration.html#title-2-header",
+    "objectID": "index.html#title-2-header",
+    "href": "index.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Tamanna Sangroula’s CV",
-    "section": "",
-    "text": "Undergraduate Student at BYU-Idaho, Accounting major, Data Science Minor.\n\nMy LinkedIn\n\n\n\nDetail-oriented Accounting Major with a Data Science minor having a strong academic foundation and a passion for financial analysis and reporting. Proficient in manual accounting processes and committed to upholding the highest standards of accuracy and ethics. Skilled in reconciling complex accounts and identifying discrepancies. Adept at collaborating with cross-functional teams to streamline processes and improve financial performance. Seeking opportunities to leverage academic knowledge in a professional accounting role.\n\n\n\n• Programming Skills: Python, SQL. • Accounting Skills: Financial Reporting, Book Keeping, Financial Analysis. • Computer Skills: MS. Excel, MS. Powerpoint, MS. Word. • Soft Skills: Problem Solving, Teamwork, Ethical Conduct, Leadership, Communication, Adaptability.\n\n\n\nUniversity Of Louisian at Monroe - Student worker; Monroe, LA | January 2023 - May 2023 • Facilitated technology use for over 200 library visitors monthly, resolving 95% of equipment issues, and providing guidance for accessing digital resources and databases, enhancing patron’s overall library experience. • Took active roles in 20+ annual library programs, contributed to 15+ promotional materials and displays, and participated in 10+ training and professional development sessions.\n\n\n\nJanuary 2022 - May 2023 University of Louisian at Monroe.\nSeptember 2023 - now Bragham Young University, Idaho\n\n\n\n2022 ULM Emerging Scholar, University of Louisiana at Monroe."
-  },
-  {
-    "objectID": "resume.html#summary",
-    "href": "resume.html#summary",
-    "title": "Tamanna Sangroula’s CV",
-    "section": "",
-    "text": "Detail-oriented Accounting Major with a Data Science minor having a strong academic foundation and a passion for financial analysis and reporting. Proficient in manual accounting processes and committed to upholding the highest standards of accuracy and ethics. Skilled in reconciling complex accounts and identifying discrepancies. Adept at collaborating with cross-functional teams to streamline processes and improve financial performance. Seeking opportunities to leverage academic knowledge in a professional accounting role."
-  },
-  {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
-    "title": "Tamanna Sangroula’s CV",
-    "section": "",
-    "text": "• Programming Skills: Python, SQL. • Accounting Skills: Financial Reporting, Book Keeping, Financial Analysis. • Computer Skills: MS. Excel, MS. Powerpoint, MS. Word. • Soft Skills: Problem Solving, Teamwork, Ethical Conduct, Leadership, Communication, Adaptability."
-  },
-  {
-    "objectID": "resume.html#experience",
-    "href": "resume.html#experience",
-    "title": "Tamanna Sangroula’s CV",
-    "section": "",
-    "text": "University Of Louisian at Monroe - Student worker; Monroe, LA | January 2023 - May 2023 • Facilitated technology use for over 200 library visitors monthly, resolving 95% of equipment issues, and providing guidance for accessing digital resources and databases, enhancing patron’s overall library experience. • Took active roles in 20+ annual library programs, contributed to 15+ promotional materials and displays, and participated in 10+ training and professional development sessions."
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Tamanna Sangroula’s CV",
-    "section": "",
-    "text": "January 2022 - May 2023 University of Louisian at Monroe.\nSeptember 2023 - now Bragham Young University, Idaho"
-  },
-  {
-    "objectID": "resume.html#awards",
-    "href": "resume.html#awards",
-    "title": "Tamanna Sangroula’s CV",
-    "section": "",
-    "text": "2022 ULM Emerging Scholar, University of Louisiana at Monroe."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "DS250 Projects",
-    "section": "",
-    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
-    "crumbs": [
-      "DS250 Projects"
-    ]
-  },
-  {
-    "objectID": "projects.html#repo-for-all-my-projects",
-    "href": "projects.html#repo-for-all-my-projects",
-    "title": "DS250 Projects",
-    "section": "",
-    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
-    "crumbs": [
-      "DS250 Projects"
-    ]
   },
   {
     "objectID": "ml.html",
@@ -155,6 +153,118 @@
   {
     "objectID": "full_stack.html#title-2-header",
     "href": "full_stack.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
+    "crumbs": [
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "projects.html#repo-for-all-my-projects",
+    "href": "projects.html#repo-for-all-my-projects",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
+    "crumbs": [
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "exploration.html#title-2-header",
+    "href": "exploration.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "Projects/project2.html",
+    "href": "Projects/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "Projects/project5.html",
+    "href": "Projects/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+  },
+  {
+    "objectID": "resume.html#currently",
+    "href": "resume.html#currently",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+  },
+  {
+    "objectID": "resume.html#awards",
+    "href": "resume.html#awards",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
+  },
+  {
+    "objectID": "resume.html#publications",
+    "href": "resume.html#publications",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
+  },
+  {
+    "objectID": "resume.html#occupation",
+    "href": "resume.html#occupation",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+  },
+  {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "competition.html#title-2-header",
+    "href": "competition.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
