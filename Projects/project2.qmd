@@ -218,12 +218,12 @@ _The Bar graph shows the porportion of all flights that are delayed by weather a
 
 # Calculate the total number of flights and delayed flights by weather for each airport
 airport_stats = df.groupby('airport_code').agg({
-    'weather': 'sum',  # Total delayed flights by weather
+    'weather_Severe': 'sum',  # Total delayed flights by weather
     'num_of_flights_total': 'sum'  # Total number of flights
 }).reset_index()
 
 # Calculate the proportion of delayed flights by weather
-airport_stats['proportion_delayed_weather'] = airport_stats['weather'] / airport_stats['num_of_flights_total']
+airport_stats['proportion_delayed_weather'] = airport_stats['weather_Severe'] / airport_stats['num_of_flights_total']
 
 # Create a more visually appealing bar chart using Plotly Express
 chart = px.bar(airport_stats, 
