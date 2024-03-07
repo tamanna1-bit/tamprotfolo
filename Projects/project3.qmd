@@ -1,7 +1,7 @@
 ---
-title: "Client Report - [Insert Project Title]"
+title: "Client Report - [Finding relationships in baseball]"
 subtitle: "Course DS 250"
-author: "[STUDENT NAME]"
+author: "Tamanna Sangroula"
 format:
   html:
     self-contained: true
@@ -25,171 +25,151 @@ execute:
     
 ---
 
-### Uncomment the entire section to use this template
-
-<!-- 
 ```{python}
 #| label: libraries
 #| include: false
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import sqlite3
 ```
 
 
 ## Elevator pitch
 
-_paste your elevator pitch here_
-_A SHORT (4-5 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._
+__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.
 
 ```{python}
-#| label: project data
-#| code-summary: Read and format project data
+
 # Include and execute your code here
-df = pd.read_csv("https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv")
+sql_file = 'lahmansbaseballdb.sqlite'
+connect = sqlite3.connect(sql_file)
+
 ```
 
 __Highlight the Questions and Tasks__
 
 ## QUESTION|TASK 1
 
-__COPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE__
+__Write an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.__
 
-_type your results and analysis here_
+__This code creates a table of baseball players who attended BYU-Idaho along with their salary, year and team. The highest paid player goes by 'lindsman01'. The player had a salary of $4 million in 2014 who plays for CHA team. Similarly, player 'stephga01' earned around $1.03 million in 2001. The data shows change on their salaries are the results of change in team and year as well. 
 
 ```{python}
 #| label: Q1
 #| code-summary: Read and format data
 # Include and execute your code here
+my_sql = """ SELECT DISTINCT bat.playerID,
+            col.schoolID,
+            sal.salary,
+            sal.yearID,
+            sal.teamID
+            FROM batting AS bat
+            JOIN salaries AS sal
+            ON sal.playerID = bat.playerID
+            JOIN collegeplaying AS col 
+            ON bat.playerID = col.playerID
+            WHERE col.schoolID = 'idbyuid'
+            ORDER BY sal.salary DESC; """  
 
-
-```
-
-_include figures in chunks and discuss your findings in the figure._
-
-```{python}
-#| label: Q1 chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
-# Include and execute your code here
-chart = px.bar(df.head(200),
-    x="name", 
-    y="AK"
-)
-chart.show()
-```
-
-
-```{python}
-#| label: Q1 table
-#| code-summary: table example
-#| tbl-cap: "Not much of a table"
-#| tbl-cap-location: top
-# Include and execute your code here
-mydat = df.head(1000)\
-    .groupby('year')\
-    .sum()\
-    .reset_index()\
-    .tail(10)\
-    .filter(["year", "AK","AR"])
-
-display(mydat)
+mydata = pd.read_sql_query(my_sql, connect)
+mydata
 
 ```
-
 
 ## QUESTION|TASK 2
 
-__COPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE__
+__This three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)__
 
-_type your results and analysis here_
+__Write an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.__
+
+_ This is the first part of the question. It shows the players with batting averahe of 1.0. The findings tells that the player hits the ball every time they were to bat. We limited the data to 5 players only._
 
 ```{python}
 #| label: Q2
 #| code-summary: Read and format data
 # Include and execute your code here
+my_sql = """ SELECT bat.playerID, 
+                    bat.yearID,
+                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting
+                    FROM batting AS bat
+                    GROUP BY bat.playerID, bat.yearID
+                    HAVING SUM(bat.AB) >= 1
+                    ORDER BY AVG_batting DESC, bat.playerID
+                    LIMIT 5; """
 
+
+mydata = pd.read_sql_query(my_sql, connect)
+mydata
 
 ```
 
-_include figures in chunks and discuss your findings in the figure._
+
+__Use the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.__
+
+_In the second part of the question, we looked into palyers who had at least 10 at-bats. We found that in 1974, player 'nymanny01' has an average of 0.642857, which is more than half. He seems to hit 6 out of 10 balls. In the top 5 players, everyone was able to hit more than 5  out of 10._
 
 ```{python}
-#| label: Q2 chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
-# Include and execute your code here
-chart = px.bar(df.head(200),
-    x="name", 
-    y="AK"
-)
-chart.show()
+my_sql = """ SELECT bat.playerID, 
+                    bat.yearID,
+                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting
+                    FROM batting AS bat
+                    GROUP BY bat.playerID, bat.yearID
+                    HAVING SUM(bat.AB) >= 10
+                    ORDER BY AVG_batting DESC, bat.playerID
+                    LIMIT 5; """
+
+
+mydata = pd.read_sql_query(my_sql, connect)
+mydata
+
 ```
 
+__Now calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.__
+
+_This is the final part of the qyestion. In this part, I calculated the batting average for players over their entire careers who had at least 100 at bats. Overall, all player 'cobbty01' seems to be the top batsman in baseball with an average of '0.366299' batting. However, all top 5 players are very close. All these players were skilled in batting._ 
 
 ```{python}
-#| label: Q2 table
-#| code-summary: table example
-#| tbl-cap: "Not much of a table"
-#| tbl-cap-location: top
-# Include and execute your code here
-mydat = df.head(1000)\
-    .groupby('year')\
-    .sum()\
-    .reset_index()\
-    .tail(10)\
-    .filter(["year", "AK","AR"])
+my_sql = """ SELECT bat.playerID, 
+                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting
+                    FROM batting AS bat
+                    GROUP BY bat.playerID
+                    HAVING SUM(bat.AB) >= 100
+                    ORDER BY AVG_batting DESC, bat.playerID
+                    LIMIT 5; """
 
-display(mydat)
+mydata = pd.read_sql_query(my_sql, connect)
+mydata
 
 ```
 
+_Overall, the findings was done to see the batting skills of the players. This result shows us the capability of the players and what year was their best perforamnces._
 
 ## QUESTION|TASK 3
 
-__COPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE__
+__Pick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?__
 
-_type your results and analysis here_
-
-```{python}
-#| label: Q3
-#| code-summary: Read and format data
-# Include and execute your code here
-
-
-```
-
-_include figures in chunks and discuss your findings in the figure._
+_This line graph shows the wins of two teams- New York Yankees(NYA) and Boston Red Sox(BOS) in each year. It looks like both the teams are neck-to-neck with each other. However, around 1920 - 1939 and around 1951 - 1963, NYA had more wins than BOS. Both the tems have similar number of wins other years. NYA had an average of 114 wins in 1998. The teams are competitive but, NYA is constant with their average wins where as there are many ups and downs for BOS in their average wins. The data helps us to find their overall performances throughout the years. _
 
 ```{python}
-#| label: Q3 chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
-# Include and execute your code here
-chart = px.bar(df.head(200),
-    x="name", 
-    y="AK"
-)
+
+my_sql = """ SELECT teamID, yearID AS year, AVG(W) AS AVG_wins
+              FROM teams
+              WHERE teamID IN ('NYA', 'BOS')
+              GROUP BY teamID, year; """
+
+mydata = pd.read_sql_query(my_sql, connect)
+mydata
+
+chart = px.line(
+    mydata,
+    x='year',
+    y='AVG_wins',
+    color='teamID',
+    markers=True,
+    labels={'AVG_wins': 'Average Wins', 'year': 'Year'},
+    title='Average Wins for NYA and BOS Over the Years')
+
 chart.show()
+
 ```
-
-
-```{python}
-#| label: Q3 table
-#| code-summary: table example
-#| tbl-cap: "Not much of a table"
-#| tbl-cap-location: top
-# Include and execute your code here
-mydat = df.head(1000)\
-    .groupby('year')\
-    .sum()\
-    .reset_index()\
-    .tail(10)\
-    .filter(["year", "AK","AR"])
-
-display(mydat)
-
-``` -->
