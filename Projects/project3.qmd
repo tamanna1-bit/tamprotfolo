@@ -77,6 +77,7 @@ mydata
 
 ```
 
+
 ## QUESTION|TASK 2
 
 __This three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)__
@@ -138,6 +139,7 @@ my_sql = """ SELECT bat.playerID,
                     ORDER BY AVG_batting DESC, bat.playerID
                     LIMIT 5; """
 
+
 mydata = pd.read_sql_query(my_sql, connect)
 mydata
 
@@ -168,8 +170,12 @@ chart = px.line(
     color='teamID',
     markers=True,
     labels={'AVG_wins': 'Average Wins', 'year': 'Year'},
-    title='Average Wins for NYA and BOS Over the Years')
+    title='Average Wins for NYA and BOS Over the Years'
+)
+
 
 chart.show()
 
 ```
+
+_include figures in chunks and discuss your findings in the figure._
