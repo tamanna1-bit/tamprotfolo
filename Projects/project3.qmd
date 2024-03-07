@@ -42,7 +42,8 @@ __This project reports the analysis of basball database to know various changes 
 ```{python}
 
 # Include and execute your code here
-sql_file = 'lahmansbaseballdb.sqlite'
+
+sql_file = 'lahmansbaseballdb (3).sqlite'
 connect = sqlite3.connect(sql_file)
 
 ```
@@ -151,7 +152,7 @@ _Overall, the findings was done to see the batting skills of the players. This r
 
 __Pick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?__
 
-_This line graph shows the wins of two teams- New York Yankees(NYA) and Boston Red Sox(BOS) in each year. It looks like both the teams are neck-to-neck with each other. However, around 1920 - 1939 and around 1951 - 1963, NYA had more wins than BOS. Both the tems have similar number of wins other years. NYA had an average of 114 wins in 1998. The teams are competitive but, NYA is constant with their average wins where as there are many ups and downs for BOS in their average wins. The data helps us to find their overall performances throughout the years. _
+_This line graph shows the wins of two teams- New York Yankees(NYA) and Boston Red Sox(BOS) in each year. It looks like both the teams are neck-to-neck with each other. However, around 1920 - 1939 and around 1951 - 1963, NYA had more wins than BOS. Both the tems have similar number of wins other years. NYA had an average of 114 wins in 1998. The teams are competitive but, NYA is constant with their average wins where as there are many ups and downs for BOS in their average wins. The data helps us to find their overall performances throughout the years._
 
 ```{python}
 
