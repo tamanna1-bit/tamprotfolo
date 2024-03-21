@@ -1,45 +1,31 @@
 [
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "about me",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "MarkDown Basics"
   },
   {
-    "objectID": "resume.html#currently",
-    "href": "resume.html#currently",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "ml.html#title-2-header",
+    "href": "ml.html#title-2-header",
+    "title": "about me",
     "section": "",
-    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
+    "text": "MarkDown Basics"
   },
   {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "about me",
     "section": "",
-    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+    "text": "MarkDown Basics"
   },
   {
-    "objectID": "resume.html#awards",
-    "href": "resume.html#awards",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "exploration.html#title-2-header",
+    "href": "exploration.html#title-2-header",
+    "title": "about me",
     "section": "",
-    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
-  },
-  {
-    "objectID": "resume.html#publications",
-    "href": "resume.html#publications",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
-  },
-  {
-    "objectID": "resume.html#occupation",
-    "href": "resume.html#occupation",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "MarkDown Basics"
   },
   {
     "objectID": "index.html",
@@ -56,6 +42,20 @@
     "text": "MarkDown Basics"
   },
   {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "full_stack.html#title-2-header",
+    "href": "full_stack.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
     "objectID": "cleansing.html",
     "href": "cleansing.html",
     "title": "about me",
@@ -65,111 +65,6 @@
   {
     "objectID": "cleansing.html#title-2-header",
     "href": "cleansing.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "Projects/project.html",
-    "href": "Projects/project.html",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "",
-    "text": "__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.\n\n\nShow the code\n# Include and execute your code here\n\nsql_file = 'lahmansbaseballdb (3).sqlite'\nconnect = sqlite3.connect(sql_file)\n\n\nHighlight the Questions and Tasks"
-  },
-  {
-    "objectID": "Projects/project.html#elevator-pitch",
-    "href": "Projects/project.html#elevator-pitch",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "",
-    "text": "__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.\n\n\nShow the code\n# Include and execute your code here\n\nsql_file = 'lahmansbaseballdb (3).sqlite'\nconnect = sqlite3.connect(sql_file)\n\n\nHighlight the Questions and Tasks"
-  },
-  {
-    "objectID": "Projects/project.html#questiontask-1",
-    "href": "Projects/project.html#questiontask-1",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "QUESTION|TASK 1",
-    "text": "QUESTION|TASK 1\nWrite an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.\n__This code creates a table of baseball players who attended BYU-Idaho along with their salary, year and team. The highest paid player goes by ‘lindsman01’. The player had a salary of $4 million in 2014 who plays for CHA team. Similarly, player ‘stephga01’ earned around $1.03 million in 2001. The data shows change on their salaries are the results of change in team and year as well.\n\n\nRead and format data\n# Include and execute your code here\nmy_sql = \"\"\" SELECT DISTINCT bat.playerID,\n            col.schoolID,\n            sal.salary,\n            sal.yearID,\n            sal.teamID\n            FROM batting AS bat\n            JOIN salaries AS sal\n            ON sal.playerID = bat.playerID\n            JOIN collegeplaying AS col \n            ON bat.playerID = col.playerID\n            WHERE col.schoolID = 'idbyuid'\n            ORDER BY sal.salary DESC; \"\"\"  \n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nschoolID\nsalary\nyearID\nteamID\n\n\n\n\n0\nlindsma01\nidbyuid\n4000000.0\n2014\nCHA\n\n\n1\nlindsma01\nidbyuid\n3600000.0\n2012\nBAL\n\n\n2\nlindsma01\nidbyuid\n2800000.0\n2011\nCOL\n\n\n3\nlindsma01\nidbyuid\n2300000.0\n2013\nCHA\n\n\n4\nlindsma01\nidbyuid\n1625000.0\n2010\nHOU\n\n\n5\nstephga01\nidbyuid\n1025000.0\n2001\nSLN\n\n\n6\nstephga01\nidbyuid\n900000.0\n2002\nSLN\n\n\n7\nstephga01\nidbyuid\n800000.0\n2003\nSLN\n\n\n8\nstephga01\nidbyuid\n550000.0\n2000\nSLN\n\n\n9\nlindsma01\nidbyuid\n410000.0\n2009\nFLO\n\n\n10\nlindsma01\nidbyuid\n395000.0\n2008\nFLO\n\n\n11\nlindsma01\nidbyuid\n380000.0\n2007\nFLO\n\n\n12\nstephga01\nidbyuid\n215000.0\n1999\nSLN\n\n\n13\nstephga01\nidbyuid\n185000.0\n1998\nPHI\n\n\n14\nstephga01\nidbyuid\n150000.0\n1997\nPHI"
-  },
-  {
-    "objectID": "Projects/project.html#questiontask-2",
-    "href": "Projects/project.html#questiontask-2",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "QUESTION|TASK 2",
-    "text": "QUESTION|TASK 2\nThis three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)\nWrite an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.\n_ This is the first part of the question. It shows the players with batting averahe of 1.0. The findings tells that the player hits the ball every time they were to bat. We limited the data to 5 players only._\n\n\nRead and format data\n# Include and execute your code here\nmy_sql = \"\"\" SELECT bat.playerID, \n                    bat.yearID,\n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID, bat.yearID\n                    HAVING SUM(bat.AB) &gt;= 1\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nAVG_batting\n\n\n\n\n0\nabernte02\n1960\n1.0\n\n\n1\nabramge01\n1923\n1.0\n\n\n2\nacklefr01\n1964\n1.0\n\n\n3\nalanirj01\n2019\n1.0\n\n\n4\nalberan01\n2017\n1.0\n\n\n\n\n\n\n\n\nUse the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.\nIn the second part of the question, we looked into palyers who had at least 10 at-bats. We found that in 1974, player ‘nymanny01’ has an average of 0.642857, which is more than half. He seems to hit 6 out of 10 balls. In the top 5 players, everyone was able to hit more than 5 out of 10.\n\n\nShow the code\nmy_sql = \"\"\" SELECT bat.playerID, \n                    bat.yearID,\n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID, bat.yearID\n                    HAVING SUM(bat.AB) &gt;= 10\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nAVG_batting\n\n\n\n\n0\nnymanny01\n1974\n0.642857\n\n\n1\ncarsoma01\n2013\n0.636364\n\n\n2\naltizda01\n1910\n0.600000\n\n\n3\nsilvech01\n1948\n0.571429\n\n\n4\npuccige01\n1930\n0.562500\n\n\n\n\n\n\n\n\nNow calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.\nThis is the final part of the qyestion. In this part, I calculated the batting average for players over their entire careers who had at least 100 at bats. Overall, all player ‘cobbty01’ seems to be the top batsman in baseball with an average of ‘0.366299’ batting. However, all top 5 players are very close. All these players were skilled in batting.\n\n\nShow the code\nmy_sql = \"\"\" SELECT bat.playerID, \n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID\n                    HAVING SUM(bat.AB) &gt;= 100\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nAVG_batting\n\n\n\n\n0\ncobbty01\n0.366299\n\n\n1\nbarnero01\n0.359682\n\n\n2\nhornsro01\n0.358497\n\n\n3\njacksjo01\n0.355752\n\n\n4\nmeyerle01\n0.355509\n\n\n\n\n\n\n\n\nOverall, the findings was done to see the batting skills of the players. This result shows us the capability of the players and what year was their best perforamnces."
-  },
-  {
-    "objectID": "Projects/project.html#questiontask-3",
-    "href": "Projects/project.html#questiontask-3",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "QUESTION|TASK 3",
-    "text": "QUESTION|TASK 3\nPick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?\nThis line graph shows the wins of two teams- New York Yankees(NYA) and Boston Red Sox(BOS) in each year. It looks like both the teams are neck-to-neck with each other. However, around 1920 - 1939 and around 1951 - 1963, NYA had more wins than BOS. Both the tems have similar number of wins other years. NYA had an average of 114 wins in 1998. The teams are competitive but, NYA is constant with their average wins where as there are many ups and downs for BOS in their average wins. The data helps us to find their overall performances throughout the years.\n\n\nShow the code\nmy_sql = \"\"\" SELECT teamID, yearID AS year, AVG(W) AS AVG_wins\n              FROM teams\n              WHERE teamID IN ('NYA', 'BOS')\n              GROUP BY teamID, year; \"\"\"\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\nchart = px.line(\n    mydata,\n    x='year',\n    y='AVG_wins',\n    color='teamID',\n    markers=True,\n    labels={'AVG_wins': 'Average Wins', 'year': 'Year'},\n    title='Average Wins for NYA and BOS Over the Years'\n)\n\n\nchart.show()\n\n\n                                                \n\n\ninclude figures in chunks and discuss your findings in the figure."
-  },
-  {
-    "objectID": "Projects/project5.html",
-    "href": "Projects/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "Projects/project4.html",
-    "href": "Projects/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 4"
-    ]
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "DS250 Projects",
-    "section": "",
-    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
-    "crumbs": [
-      "DS250 Projects"
-    ]
-  },
-  {
-    "objectID": "projects.html#repo-for-all-my-projects",
-    "href": "projects.html#repo-for-all-my-projects",
-    "title": "DS250 Projects",
-    "section": "",
-    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
-    "crumbs": [
-      "DS250 Projects"
-    ]
-  },
-  {
-    "objectID": "story_telling.html",
-    "href": "story_telling.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "story_telling.html#title-2-header",
-    "href": "story_telling.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "exploration.html",
-    "href": "exploration.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "exploration.html#title-2-header",
-    "href": "exploration.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
@@ -238,61 +133,6 @@
     "crumbs": [
       "DS250 Projects",
       "Project 1"
-    ]
-  },
-  {
-    "objectID": "Projects/project3.html",
-    "href": "Projects/project3.html",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "",
-    "text": "__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.\n\n\nShow the code\n# Include and execute your code here\n\nsql_file = 'lahmansbaseballdb (3).sqlite'\nconnect = sqlite3.connect(sql_file)\n\n\nHighlight the Questions and Tasks",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Projects/project3.html#elevator-pitch",
-    "href": "Projects/project3.html#elevator-pitch",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "",
-    "text": "__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.\n\n\nShow the code\n# Include and execute your code here\n\nsql_file = 'lahmansbaseballdb (3).sqlite'\nconnect = sqlite3.connect(sql_file)\n\n\nHighlight the Questions and Tasks",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Projects/project3.html#questiontask-1",
-    "href": "Projects/project3.html#questiontask-1",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "QUESTION|TASK 1",
-    "text": "QUESTION|TASK 1\nWrite an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.\n__This code creates a table of baseball players who attended BYU-Idaho along with their salary, year and team. The highest paid player goes by ‘lindsman01’. The player had a salary of $4 million in 2014 who plays for CHA team. Similarly, player ‘stephga01’ earned around $1.03 million in 2001. The data shows change on their salaries are the results of change in team and year as well.\n\n\nRead and format data\n# Include and execute your code here\nmy_sql = \"\"\" SELECT DISTINCT bat.playerID,\n            col.schoolID,\n            sal.salary,\n            sal.yearID,\n            sal.teamID\n            FROM batting AS bat\n            JOIN salaries AS sal\n            ON sal.playerID = bat.playerID\n            JOIN collegeplaying AS col \n            ON bat.playerID = col.playerID\n            WHERE col.schoolID = 'idbyuid'\n            ORDER BY sal.salary DESC; \"\"\"  \n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nschoolID\nsalary\nyearID\nteamID\n\n\n\n\n0\nlindsma01\nidbyuid\n4000000.0\n2014\nCHA\n\n\n1\nlindsma01\nidbyuid\n3600000.0\n2012\nBAL\n\n\n2\nlindsma01\nidbyuid\n2800000.0\n2011\nCOL\n\n\n3\nlindsma01\nidbyuid\n2300000.0\n2013\nCHA\n\n\n4\nlindsma01\nidbyuid\n1625000.0\n2010\nHOU\n\n\n5\nstephga01\nidbyuid\n1025000.0\n2001\nSLN\n\n\n6\nstephga01\nidbyuid\n900000.0\n2002\nSLN\n\n\n7\nstephga01\nidbyuid\n800000.0\n2003\nSLN\n\n\n8\nstephga01\nidbyuid\n550000.0\n2000\nSLN\n\n\n9\nlindsma01\nidbyuid\n410000.0\n2009\nFLO\n\n\n10\nlindsma01\nidbyuid\n395000.0\n2008\nFLO\n\n\n11\nlindsma01\nidbyuid\n380000.0\n2007\nFLO\n\n\n12\nstephga01\nidbyuid\n215000.0\n1999\nSLN\n\n\n13\nstephga01\nidbyuid\n185000.0\n1998\nPHI\n\n\n14\nstephga01\nidbyuid\n150000.0\n1997\nPHI",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Projects/project3.html#questiontask-2",
-    "href": "Projects/project3.html#questiontask-2",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "QUESTION|TASK 2",
-    "text": "QUESTION|TASK 2\nThis three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)\nWrite an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.\n_ This is the first part of the question. It shows the players with batting averahe of 1.0. The findings tells that the player hits the ball every time they were to bat. We limited the data to 5 players only._\n\n\nRead and format data\n# Include and execute your code here\nmy_sql = \"\"\" SELECT bat.playerID, \n                    bat.yearID,\n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID, bat.yearID\n                    HAVING SUM(bat.AB) &gt;= 1\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nAVG_batting\n\n\n\n\n0\nabernte02\n1960\n1.0\n\n\n1\nabramge01\n1923\n1.0\n\n\n2\nacklefr01\n1964\n1.0\n\n\n3\nalanirj01\n2019\n1.0\n\n\n4\nalberan01\n2017\n1.0\n\n\n\n\n\n\n\n\nUse the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.\nIn the second part of the question, we looked into palyers who had at least 10 at-bats. We found that in 1974, player ‘nymanny01’ has an average of 0.642857, which is more than half. He seems to hit 6 out of 10 balls. In the top 5 players, everyone was able to hit more than 5 out of 10.\n\n\nShow the code\nmy_sql = \"\"\" SELECT bat.playerID, \n                    bat.yearID,\n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID, bat.yearID\n                    HAVING SUM(bat.AB) &gt;= 10\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nAVG_batting\n\n\n\n\n0\nnymanny01\n1974\n0.642857\n\n\n1\ncarsoma01\n2013\n0.636364\n\n\n2\naltizda01\n1910\n0.600000\n\n\n3\nsilvech01\n1948\n0.571429\n\n\n4\npuccige01\n1930\n0.562500\n\n\n\n\n\n\n\n\nNow calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.\nThis is the final part of the qyestion. In this part, I calculated the batting average for players over their entire careers who had at least 100 at bats. Overall, all player ‘cobbty01’ seems to be the top batsman in baseball with an average of ‘0.366299’ batting. However, all top 5 players are very close. All these players were skilled in batting.\n\n\nShow the code\nmy_sql = \"\"\" SELECT bat.playerID, \n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID\n                    HAVING SUM(bat.AB) &gt;= 100\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nAVG_batting\n\n\n\n\n0\ncobbty01\n0.366299\n\n\n1\nbarnero01\n0.359682\n\n\n2\nhornsro01\n0.358497\n\n\n3\njacksjo01\n0.355752\n\n\n4\nmeyerle01\n0.355509\n\n\n\n\n\n\n\n\nOverall, the findings was done to see the batting skills of the players. This result shows us the capability of the players and what year was their best perforamnces.",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Projects/project3.html#questiontask-3",
-    "href": "Projects/project3.html#questiontask-3",
-    "title": "Client Report - [Finding relationships in baseball]",
-    "section": "QUESTION|TASK 3",
-    "text": "QUESTION|TASK 3\nPick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?\nThis line graph shows the wins of two teams- New York Yankees(NYA) and Boston Red Sox(BOS) in each year. It looks like both the teams are neck-to-neck with each other. However, around 1920 - 1939 and around 1951 - 1963, NYA had more wins than BOS. Both the tems have similar number of wins other years. NYA had an average of 114 wins in 1998. The teams are competitive but, NYA is constant with their average wins where as there are many ups and downs for BOS in their average wins. The data helps us to find their overall performances throughout the years.\n\n\nShow the code\nmy_sql = \"\"\" SELECT teamID, yearID AS year, AVG(W) AS AVG_wins\n              FROM teams\n              WHERE teamID IN ('NYA', 'BOS')\n              GROUP BY teamID, year; \"\"\"\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\nchart = px.line(\n    mydata,\n    x='year',\n    y='AVG_wins',\n    color='teamID',\n    markers=True,\n    labels={'AVG_wins': 'Average Wins', 'year': 'Year'},\n    title='Average Wins for NYA and BOS Over the Years'\n)\n\n\nchart.show()\n\n\n                                                \n\n\ninclude figures in chunks and discuss your findings in the figure.",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 3"
     ]
   },
   {
@@ -373,18 +213,156 @@
     ]
   },
   {
-    "objectID": "full_stack.html",
-    "href": "full_stack.html",
-    "title": "about me",
+    "objectID": "Projects/project4.html",
+    "href": "Projects/project4.html",
+    "title": "Client Report - Can you Predict that?",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "For this project, I have created charts to evalutate potential relationship between the home variable and befor1980. I used ‘livearea’, ‘numbdrm’, ‘sprice’ as the variables to compare the results. i also build a classification model labeling houses as being built “before 1980” or “during or after 1980”. At last, it also justifies the classification model by discussing the most important features selected by my model. \n\n\nShow the code\n# Include and execute your code here\ndf = pd.read_csv(\"https://raw.githubusercontent.com/byuidatascience/data4dwellings/master/data-raw/dwellings_ml/dwellings_ml.csv\")\n\n\nHighlight the Questions and Tasks",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
   },
   {
-    "objectID": "full_stack.html#title-2-header",
-    "href": "full_stack.html#title-2-header",
-    "title": "about me",
+    "objectID": "Projects/project4.html#elevator-pitch",
+    "href": "Projects/project4.html#elevator-pitch",
+    "title": "Client Report - Can you Predict that?",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "For this project, I have created charts to evalutate potential relationship between the home variable and befor1980. I used ‘livearea’, ‘numbdrm’, ‘sprice’ as the variables to compare the results. i also build a classification model labeling houses as being built “before 1980” or “during or after 1980”. At last, it also justifies the classification model by discussing the most important features selected by my model. \n\n\nShow the code\n# Include and execute your code here\ndf = pd.read_csv(\"https://raw.githubusercontent.com/byuidatascience/data4dwellings/master/data-raw/dwellings_ml/dwellings_ml.csv\")\n\n\nHighlight the Questions and Tasks",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Projects/project4.html#questiontask-1",
+    "href": "Projects/project4.html#questiontask-1",
+    "title": "Client Report - Can you Predict that?",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nCreate 2-3 charts that evaluate potential relationships between the home variables and before1980. Explain what you learn from the charts that could help a machine learning algorithm.\nThe following charts evaluate th epotential relationships between the home variables and before1980. I used ‘livearea’, ‘numbdrm’, and ‘sprice’ home variables. In the first chart, I used the ‘livearea’ which is the toal livable area in house. The homes built befor 1980 has more livable area accourding to my data selection. The second chart was the chart to evaluate the distribution of bedrooms for homes built before and after 1980. It looks like building built after 1980 has lesser bedrooms than building built before 1980. The final chart is evalutating the selling price for homes built before nad after 198. The results shows that the house build before 1980 is selling in lower price than the house built after 1980. The charts can help us identify the important features and understand the model better which is insightful to a machine learning algorithms. It can help perform predicitive tasks.\n\n\nRead and format data\n# Include and execute your code here\n# Chart 1: Scatter plot - Area vs. Before1980\n\ndata = pd.DataFrame({\n    'livearea': [1752, 1130, 1268, 1502, 1348],\n    'numbdrm': [4, 2, 2, 4, 3  ],\n    'sprice': [158000, 339000, 269850, 885000, 105000],\n    'before1980': [\"Yes\",\"No\", \"Yes\", \"No\", \"Yes\"]\n})\n\nchart1 = px.histogram(data, x='livearea', nbins= 25,color='before1980', \n                  labels={'livearea': 'liveable area', 'before1980': 'Built Before 1980'},\n                  title='Relationship between liveable Area and Before 1980')\nchart1.show()\n\n# Chart 2: Box plot - Bedrooms vs. Before1980\nchart2 = px.bar(data, x='before1980', y='numbdrm', color='before1980', \n              labels={'numbdrm': 'Number of Bedrooms', 'before1980': 'Built Before 1980'},\n              title='Distribution of Bedrooms for Homes Built Before and After 1980')\nchart2.show()\n\nchart3 = px.box(data, x='before1980', y='sprice', color='before1980', \n              labels={'sprice': 'selling price', 'before1980': 'Built Before 1980'},\n              title='Selling Price for Homes Built Before and After 1980')\nchart3.show()",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Projects/project4.html#questiontask-2",
+    "href": "Projects/project4.html#questiontask-2",
+    "title": "Client Report - Can you Predict that?",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nBuild a classification model labeling houses as being built “before 1980” or “during or after 1980”. Your goal is to reach or exceed 90% accuracy. Explain your final model choice (algorithm, tuning parameters, etc) and describe what other models you tried.\nI chose RandomForestClassifier to build a classification model labeling houses as being built “before 1980” or “during or after 1980”. It showed the accuracy of more than 90%. It was choosen as it a versatile classifier that include robustness, interpretability, scalablilty across various types of datasets. I also tried using DecisionTrees classifier, but I found RandomForests more comfortable.\nAccuracy: 93.74%\n\n\nShow the code\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import accuracy_score\n\ncolumns_to_drop = [\"parcel\", \"deduct\", \"netprice\", \"tasp\", \"smonth\", \"syear\"]\nnew_data = df.drop(columns=columns_to_drop, errors=\"ignore\")\n\n# Define features and target variable\ndata_features = new_data.drop(columns=[\"before1980\", \"yrbuilt\"]).columns\nfeatures = data_features.tolist()\n\nX = new_data[features]\ny = new_data[\"before1980\"]\n\n# Split the data into train and test sets\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\n\n# Define the classifier\nclassifier = RandomForestClassifier(\n    bootstrap=True,\n    criterion=\"entropy\",\n    max_features=\"sqrt\",\n    n_estimators=300,\n    n_jobs=-1,\n    random_state=42,\n)\n\n# Train the classifier\nclassifier.fit(X_train, y_train)\n\n# Make predictions\npred = classifier.predict(X_test)\n\n# Calculate the accuracy of the model\naccuracy = accuracy_score(y_test, pred)\n\n# Display accuracy in a table\naccuracy_df = pd.DataFrame({\"Metric\": [\"Accuracy\"], \"Value\": [accuracy]})\nprint(accuracy_df)\n\n\n     Metric     Value\n0  Accuracy  0.937445",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Projects/project4.html#questiontask-3",
+    "href": "Projects/project4.html#questiontask-3",
+    "title": "Client Report - Can you Predict that?",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nJustify your classification model by discussing the most important features selected by your model. This discussion should include a chart and a description of the features.\nThe followinf chart shows the feature importance provided by the model. According the top 8 most important feature imprtance, ‘livearea’ is a variable which is of the most importance in my model. Followed by ‘sprice’ which is the selling price. As per the Chart, ‘quality_C’ is the least importance features out of the top 8 import features.\n\n\nShow the code\n# Retrieve feature importances from the trained model\nfeature_importances = classifier.feature_importances_\n\n# Create a DataFrame to store feature names and importances\nfeature_importance_df = pd.DataFrame({\"Feature\": features, \"Importance\": feature_importances})\n\n# Sort the DataFrame by feature importance\nfeature_importance_df = feature_importance_df.sort_values(by=\"Importance\", ascending=False)\n\ntop_n = 8\ntop_features = feature_importance_df.head(top_n)\n\nfig = px.bar(\n    top_features,\n    x=\"Importance\",\n    y=\"Feature\", \n    title=\"Top 8 Most Important Features\",\n    labels={\"Importance\": \"Feature Importance\", \"Feature\": \"Feature\"},\n    hover_name=\"Feature\",\n    hover_data={\"Feature\": False, \"Importance\": True},  # Show Importance in hover tooltip\n)\n\n# Show the chart\nfig.show()",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Projects/project4.html#questiontask-4",
+    "href": "Projects/project4.html#questiontask-4",
+    "title": "Client Report - Can you Predict that?",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nDescribe the quality of your classification model using 2-3 different evaluation metrics. You also need to explain how to interpret each of the evaluation metrics you use.\nI have tried to see the quality of the classification model by using the 3 most common evaluation metrics - Accuracy, which we did in the question 2, Precision and Recall. Accuracuy is the metric which shows the proportion of corretly classified instances our of the total instances. Percision is the matric that shows the proportion of true positive predictions among all positive prediction.And Recall us the the merrice that shows the proportion of ture positive predictions among all actual positive instances in the dataset.\n\n\nRead and format data\nfrom sklearn.metrics import precision_score\nfrom sklearn.metrics import recall_score\n# Calculate the accuracy of the model\naccuracy = accuracy_score(y_test, pred)\n\n# Calculate the precision of the model\nprecision = precision_score(y_test, pred)\n\n\n# Calculate the recall of the model\nrecall = recall_score(y_test, pred)\n\n# Display accuracy, precision, and recall in a table\nevaluation_df = pd.DataFrame({\"Metric\": [\"Accuracy\", \"Precision\", \"Recall\"], \"Value\": [accuracy, precision, recall]})\nprint(evaluation_df)\n\n\n      Metric     Value\n0   Accuracy  0.937445\n1  Precision  0.948599\n2     Recall  0.951684",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Projects/project3.html",
+    "href": "Projects/project3.html",
+    "title": "Client Report - [Finding relationships in baseball]",
+    "section": "",
+    "text": "__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.\n\n\nShow the code\n# Include and execute your code here\n\nsql_file = 'lahmansbaseballdb (3).sqlite'\nconnect = sqlite3.connect(sql_file)\n\n\nHighlight the Questions and Tasks",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project3.html#elevator-pitch",
+    "href": "Projects/project3.html#elevator-pitch",
+    "title": "Client Report - [Finding relationships in baseball]",
+    "section": "",
+    "text": "__This project reports the analysis of basball database to know various changes in basball and its players. I have used the data collected from 1800s to the present day. I have tried finding of players who attended BYU-Idaho and their salaries. Similarly, I have looked at the average number of hits per players. To conclude, I looked into two teams- New York Yankees(NYA) and Boston Red Sox(BOS) and comapred the wins of each teams throughout the year.\n\n\nShow the code\n# Include and execute your code here\n\nsql_file = 'lahmansbaseballdb (3).sqlite'\nconnect = sqlite3.connect(sql_file)\n\n\nHighlight the Questions and Tasks",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project3.html#questiontask-1",
+    "href": "Projects/project3.html#questiontask-1",
+    "title": "Client Report - [Finding relationships in baseball]",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nWrite an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.\n__This code creates a table of baseball players who attended BYU-Idaho along with their salary, year and team. The highest paid player goes by ‘lindsman01’. The player had a salary of $4 million in 2014 who plays for CHA team. Similarly, player ‘stephga01’ earned around $1.03 million in 2001. The data shows change on their salaries are the results of change in team and year as well.\n\n\nRead and format data\n# Include and execute your code here\nmy_sql = \"\"\" SELECT DISTINCT bat.playerID,\n            col.schoolID,\n            sal.salary,\n            sal.yearID,\n            sal.teamID\n            FROM batting AS bat\n            JOIN salaries AS sal\n            ON sal.playerID = bat.playerID\n            JOIN collegeplaying AS col \n            ON bat.playerID = col.playerID\n            WHERE col.schoolID = 'idbyuid'\n            ORDER BY sal.salary DESC; \"\"\"  \n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nschoolID\nsalary\nyearID\nteamID\n\n\n\n\n0\nlindsma01\nidbyuid\n4000000.0\n2014\nCHA\n\n\n1\nlindsma01\nidbyuid\n3600000.0\n2012\nBAL\n\n\n2\nlindsma01\nidbyuid\n2800000.0\n2011\nCOL\n\n\n3\nlindsma01\nidbyuid\n2300000.0\n2013\nCHA\n\n\n4\nlindsma01\nidbyuid\n1625000.0\n2010\nHOU\n\n\n5\nstephga01\nidbyuid\n1025000.0\n2001\nSLN\n\n\n6\nstephga01\nidbyuid\n900000.0\n2002\nSLN\n\n\n7\nstephga01\nidbyuid\n800000.0\n2003\nSLN\n\n\n8\nstephga01\nidbyuid\n550000.0\n2000\nSLN\n\n\n9\nlindsma01\nidbyuid\n410000.0\n2009\nFLO\n\n\n10\nlindsma01\nidbyuid\n395000.0\n2008\nFLO\n\n\n11\nlindsma01\nidbyuid\n380000.0\n2007\nFLO\n\n\n12\nstephga01\nidbyuid\n215000.0\n1999\nSLN\n\n\n13\nstephga01\nidbyuid\n185000.0\n1998\nPHI\n\n\n14\nstephga01\nidbyuid\n150000.0\n1997\nPHI",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project3.html#questiontask-2",
+    "href": "Projects/project3.html#questiontask-2",
+    "title": "Client Report - [Finding relationships in baseball]",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nThis three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)\nWrite an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.\n_ This is the first part of the question. It shows the players with batting averahe of 1.0. The findings tells that the player hits the ball every time they were to bat. We limited the data to 5 players only._\n\n\nRead and format data\n# Include and execute your code here\nmy_sql = \"\"\" SELECT bat.playerID, \n                    bat.yearID,\n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID, bat.yearID\n                    HAVING SUM(bat.AB) &gt;= 1\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nAVG_batting\n\n\n\n\n0\nabernte02\n1960\n1.0\n\n\n1\nabramge01\n1923\n1.0\n\n\n2\nacklefr01\n1964\n1.0\n\n\n3\nalanirj01\n2019\n1.0\n\n\n4\nalberan01\n2017\n1.0\n\n\n\n\n\n\n\n\nUse the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.\nIn the second part of the question, we looked into palyers who had at least 10 at-bats. We found that in 1974, player ‘nymanny01’ has an average of 0.642857, which is more than half. He seems to hit 6 out of 10 balls. In the top 5 players, everyone was able to hit more than 5 out of 10.\n\n\nShow the code\nmy_sql = \"\"\" SELECT bat.playerID, \n                    bat.yearID,\n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID, bat.yearID\n                    HAVING SUM(bat.AB) &gt;= 10\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nyearID\nAVG_batting\n\n\n\n\n0\nnymanny01\n1974\n0.642857\n\n\n1\ncarsoma01\n2013\n0.636364\n\n\n2\naltizda01\n1910\n0.600000\n\n\n3\nsilvech01\n1948\n0.571429\n\n\n4\npuccige01\n1930\n0.562500\n\n\n\n\n\n\n\n\nNow calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.\nThis is the final part of the qyestion. In this part, I calculated the batting average for players over their entire careers who had at least 100 at bats. Overall, all player ‘cobbty01’ seems to be the top batsman in baseball with an average of ‘0.366299’ batting. However, all top 5 players are very close. All these players were skilled in batting.\n\n\nShow the code\nmy_sql = \"\"\" SELECT bat.playerID, \n                    CAST(SUM(bat.H) as FLOAT )/ CAST(SUM(bat.AB) as FLOAT) AS AVG_batting\n                    FROM batting AS bat\n                    GROUP BY bat.playerID\n                    HAVING SUM(bat.AB) &gt;= 100\n                    ORDER BY AVG_batting DESC, bat.playerID\n                    LIMIT 5; \"\"\"\n\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\n\n\n\n\n\n\n\n\n\nplayerID\nAVG_batting\n\n\n\n\n0\ncobbty01\n0.366299\n\n\n1\nbarnero01\n0.359682\n\n\n2\nhornsro01\n0.358497\n\n\n3\njacksjo01\n0.355752\n\n\n4\nmeyerle01\n0.355509\n\n\n\n\n\n\n\n\nOverall, the findings was done to see the batting skills of the players. This result shows us the capability of the players and what year was their best perforamnces.",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project3.html#questiontask-3",
+    "href": "Projects/project3.html#questiontask-3",
+    "title": "Client Report - [Finding relationships in baseball]",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nPick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?\nThis line graph shows the wins of two teams- New York Yankees(NYA) and Boston Red Sox(BOS) in each year. It looks like both the teams are neck-to-neck with each other. However, around 1920 - 1939 and around 1951 - 1963, NYA had more wins than BOS. Both the tems have similar number of wins other years. NYA had an average of 114 wins in 1998. The teams are competitive but, NYA is constant with their average wins where as there are many ups and downs for BOS in their average wins. The data helps us to find their overall performances throughout the years.\n\n\nShow the code\nmy_sql = \"\"\" SELECT teamID, yearID AS year, AVG(W) AS AVG_wins\n              FROM teams\n              WHERE teamID IN ('NYA', 'BOS')\n              GROUP BY teamID, year; \"\"\"\n\nmydata = pd.read_sql_query(my_sql, connect)\nmydata\n\nchart = px.line(\n    mydata,\n    x='year',\n    y='AVG_wins',\n    color='teamID',\n    markers=True,\n    labels={'AVG_wins': 'Average Wins', 'year': 'Year'},\n    title='Average Wins for NYA and BOS Over the Years'\n)\n\n\nchart.show()\n\n\n                                                \n\n\ninclude figures in chunks and discuss your findings in the figure.",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project5.html",
+    "href": "Projects/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
+    "crumbs": [
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "projects.html#repo-for-all-my-projects",
+    "href": "projects.html#repo-for-all-my-projects",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
+    "crumbs": [
+      "DS250 Projects"
+    ]
   },
   {
     "objectID": "competition.html",
@@ -401,17 +379,59 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "ml.html",
-    "href": "ml.html",
+    "objectID": "story_telling.html",
+    "href": "story_telling.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "ml.html#title-2-header",
-    "href": "ml.html#title-2-header",
+    "objectID": "story_telling.html#title-2-header",
+    "href": "story_telling.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+  },
+  {
+    "objectID": "resume.html#currently",
+    "href": "resume.html#currently",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+  },
+  {
+    "objectID": "resume.html#awards",
+    "href": "resume.html#awards",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
+  },
+  {
+    "objectID": "resume.html#publications",
+    "href": "resume.html#publications",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
+  },
+  {
+    "objectID": "resume.html#occupation",
+    "href": "resume.html#occupation",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
   }
 ]
